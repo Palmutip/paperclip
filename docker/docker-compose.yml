@@ -17,8 +17,8 @@ services:
 
   server:
     build:
-      context: ..
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: ../Dockerfile
     ports:
       - "3100:3100"
     environment:
